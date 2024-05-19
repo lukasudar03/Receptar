@@ -25,21 +25,21 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
             </form>
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top" src="david-holifield-kPxsqUGneXQ-unsplash.jpg"  alt="Card image cap">
+                    <img class="card-img-top" src="images/david-holifield-kPxsqUGneXQ-unsplash.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Čokoladne tortice s marcipanom</h5>
                         <button type="button" class="btn btn-primary" id="btn">Pogledaj više...</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="jason-leung-AUAuEgUxg5Q-unsplash.jpg"  style="height: 317px; width: 430px;" alt="Card image cap">
+                    <img class="card-img-top" src="images/jason-leung-AUAuEgUxg5Q-unsplash.jpg" style="height: 317px; width: 430px;" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Ćufte u sosu</h5>
                         <button type="button" class="btn btn-primary" id="btn1">Pogledaj više...</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="elaine-kong-s6kv0FzGQCw-unsplash.jpg"   style="height: 317px; width: 430px;" alt="Card image cap">
+                    <img class="card-img-top" src="images/elaine-kong-s6kv0FzGQCw-unsplash.jpg" style="height: 317px; width: 430px;" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Testo za palačinke</h5>
                         <button type="button" class="btn btn-primary" id="btn2">Pogledaj više...</button>
@@ -51,7 +51,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
 
         <div class="col-md-6 d-none" id="recipe-screen">
             <h2>Recept: <span id="recipe-title"></span></h2>
-            <img src="david-holifield-kPxsqUGneXQ-unsplash.jpg" alt="Slika recepta" id="recipe-image" class="img-fluid mb-3">
+            <img src="images/david-holifield-kPxsqUGneXQ-unsplash.jpg" alt="Slika recepta" id="recipe-image" class="img-fluid mb-3">
             <ul class="list-group">
                 <h3>Sastojci:</h3>
                 <li class="list-group-item"><b>ZA BISKVIT:</b></li>
@@ -119,7 +119,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
 
             <div class="col-md-6 d-none" id="recipe-screen1" >
                 <h2>Recept: <span id="recipe-title"></span></h2>
-                <img src="jason-leung-AUAuEgUxg5Q-unsplash.jpg"  style="height: 317px; width: 430px;" alt="Slika recepta" id="recipe-image" class="img-fluid mb-3">
+                <img src="images/jason-leung-AUAuEgUxg5Q-unsplash.jpg" style="height: 317px; width: 430px;" alt="Slika recepta" id="recipe-image" class="img-fluid mb-3">
                 <ul class="list-group">
                     <h3>Sastojci:</h3>
                     <li class="list-group-item"><b>Ćufte:</b></li>

@@ -25,7 +25,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
             </form>
             <div class="card-group gap-3">
                 <div class="card">
-                    <img class="card-img-top" src="david-holifield-kPxsqUGneXQ-unsplash.jpg"  alt="Card image cap">
+                    <img class="card-img-top" src="images/david-holifield-kPxsqUGneXQ-unsplash.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Čokoladne tortice s marcipanom</h5>
                         <button type="button" class="btn btn-primary" id="btn">Pogledaj više...</button>
