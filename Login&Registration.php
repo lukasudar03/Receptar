@@ -1,4 +1,4 @@
-<?php
+    <?php
 include('nav.php'); // Replace 'nav.php' with the correct path if it's in a different location
 ?>
 <!DOCTYPE html>
