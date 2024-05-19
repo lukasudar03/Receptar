@@ -9,6 +9,8 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
     <title>Recept Aplikacija - Demo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="JS/scypt.js"></script>
+
 </head>
 <body>
 <header class="container d-flex flex-column align-items-center py-3">
@@ -30,6 +32,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
                 <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
                     <h2>Prijava</h2>
                     <form class="mb-3">
+
                         <div class="mb-3">
                             <label for="loginEmail" class="form-label">E-mail adresa</label>
                             <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
@@ -46,6 +49,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
                 <div class="tab-pane fade " id="register" role="tabpanel" aria-labelledby="register-tab">
                     <h2>Registracija</h2>
                     <form>
+                        <!--
                         <div class="mb-3">
                             <label for="registerEmail" class="form-label">E-mail adresa</label>
                             <input type="email" class="form-control" id="registerEmail" aria-describedby="emailHelp">
@@ -59,7 +63,50 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
                             <label for="confirmPassword" class="form-label">Ponovo lozinka</label>
                             <input type="password" class="form-control" id="confirmPassword">
                         </div>
-                        <button type="submit" class="btn btn-primary">Registruj se</button>
+                        <button type="submit" class="btn btn-primary">Registruj se</button>-->
+
+                        <div class="pt-3 field">
+                            <label for="registerFirstname" class="form-label">Firstname</label>
+                            <input type="text" class="form-control" id="registerFirstname"
+                                   placeholder="Enter firstname" name="firstname">
+                            <small></small>
+                        </div>
+
+                        <div class="pt-3 field">
+                            <label for="registerLastname" class="form-label">Lastname</label>
+                            <input type="text" class="form-control" id="registerLastname"
+                                   placeholder="Enter lastname" name="lastname">
+                            <small></small>
+                        </div>
+
+                        <div class="pt-3 field">
+                            <label for="registerEmail" class="form-label">E-mail address</label>
+                            <input type="text" class="form-control" id="registerEmail"
+                                   placeholder="Enter valid e-mail address" name="email">
+                            <small></small>
+                        </div>
+
+                        <div class="pt-3 field">
+                            <label for="registerPassword" class="form-label">Password <i class="bi bi-eye-slash-fill"
+                                                                                         id="passwordEye"></i></label>
+                            <input type="password" class="form-control passwordVisibiliy" name="password" id="registerPassword"
+                                   placeholder="Password (min 8 characters)">
+                            <small></small>
+                            <span id="strengthDisp" class="badge displayBadge">Weak</span>
+                        </div>
+
+                        <div class="pt-3 field">
+                            <label for="registerPasswordConfirm" class="form-label">Password confirm</label>
+                            <input type="password" class="form-control" name="passwordConfirm" id="registerPasswordConfirm"
+                                   placeholder="Password again">
+                            <small></small>
+                        </div>
+
+                        <div class="pt-3">
+                            <input type="hidden" name="action" value="register">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                            <button type="reset" class="btn btn-primary resetButton" >Cancel</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -99,7 +146,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
 <!--        event.preventDefault();-->
 <!--        activateTab("register"); // Activate the "Register" tab content-->
 <!--    });-->
-<!--</script>-->
+<!--</script>>-->
 
 <script>
     // Select the link elements by their IDs
