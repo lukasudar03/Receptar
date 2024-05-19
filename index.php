@@ -18,7 +18,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
 <main class="container">
     <section class="row">
         <div class="col-md-12 mb-3">
-            <h2>Glavni ekran</h2>
+            <h2 style="display: flex; justify-content: center">Glavni ekran</h2>
             <body>
             <form class="form-inline">
                 <div class="btn-group" style="display: flex; justify-content: center" role="group" aria-label="Basic checkbox toggle button group">
@@ -40,11 +40,6 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
                     <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
                     <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
                 </div>
-                <br><br>
-                <div class="mb-3">
-                    <input type="search" class="form-control" aria-describedby="emailHelp" placeholder="Seach meal...">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             <br>
             <div class="card-group">
