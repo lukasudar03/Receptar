@@ -31,7 +31,7 @@ include('../nav.php'); // Replace 'nav.php' with the correct path if it's in a d
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
                     <h2>Prijava</h2>
-                    <form class="mb-3" action="../includes/login.inc.php">
+                    <form class="mb-3" method="post" action="../includes/login.inc.php">
                         <div class="mb-3">
                             <label for="loginEmail" class="form-label">E-mail adresa</label>
                             <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
@@ -47,7 +47,7 @@ include('../nav.php'); // Replace 'nav.php' with the correct path if it's in a d
                 </div>
                 <div class="tab-pane fade " id="register" role="tabpanel" aria-labelledby="register-tab">
                     <h2>Registracija</h2>
-                    <form action="../includes/signup.inc.php">
+                    <form method="post" action="../includes/signup.inc.php">
                         <!--
                         <div class="mb-3">
                             <label for="registerEmail" class="form-label">E-mail adresa</label>
