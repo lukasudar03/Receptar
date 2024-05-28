@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#ingredientList {
+    position: absolute;
+    width: 300px;
+    max-height: 150px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#ingredientList li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#ingredientList li:hover {
+    background-color: #f0f0f0;
+}
+
+.recipe {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.recipe h2 {
+    margin-top: 0;
+}
+
+.recipe p {
+    margin: 10px 0;
+}
