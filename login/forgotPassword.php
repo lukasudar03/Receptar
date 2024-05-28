@@ -31,19 +31,6 @@ include('../nav.php'); // Replace 'nav.php' with the correct path if it's in a d
                     <form class="mb-3" action="resetCode.php">
                         <div class="mb-3">
                             <label for="loginEmail" class="form-label">Molimo Vas unesite vašu email adresu</label>
-                            <?php
-                            if(count($errors) > 0){
-                                ?>
-                                <div class="alert alert-danger text-center">
-                                    <?php
-                                    foreach($errors as $error){
-                                        echo $error;
-                                    }
-                                    ?>
-                                </div>
-                                <?php
-                            }
-                            ?>
                             <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
                         </div>
                         <button type="submit" class="btn btn-primary">Dalje</button>
