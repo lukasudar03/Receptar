@@ -21,10 +21,10 @@
                     <a class="nav-link active text-white" aria-current="page" href="/Receptar/index.php">Početna</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="login/RegistrationMode.php">Pretraga</a>
+                    <a class="nav-link text-white" href="/Receptar/login/RegistrationMode.php">Pretraga</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="login/Login&Registration.php">Login</a>
+                    <a class="nav-link text-white" href="/Receptar/login/Login&Registration.php">Login</a>
                 </li>
             </ul>
         </div>
