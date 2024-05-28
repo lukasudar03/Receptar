@@ -31,14 +31,14 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
                     <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
                     <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
 
-                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+                    <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck4">Checkbox 4</label>
 
-                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+                    <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck5">Checkbox 5</label>
 
-                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+                    <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btncheck6">Checkbox 6</label>
                 </div>
             </form>
             <br>
