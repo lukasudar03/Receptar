@@ -103,7 +103,7 @@ include('../nav.php'); // Replace 'nav.php' with the correct path if it's in a d
 
                         <div class="pt-3">
                             <input type="hidden" name="action" value="register">
-                            <button type="submit" class="btn btn-primary">Register</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Register</button>
                             <button type="reset" class="btn btn-primary resetButton" >Cancel</button>
                         </div>
                     </form>
