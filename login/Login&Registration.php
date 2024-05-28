@@ -1,5 +1,5 @@
-    <?php
-include('nav.php'); // Replace 'nav.php' with the correct path if it's in a different location
+<?php
+include('../nav.php'); // Replace 'nav.php' with the correct path if it's in a different location
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +44,7 @@ include('nav.php'); // Replace 'nav.php' with the correct path if it's in a diff
                         </div>
                         <button type="submit" class="btn btn-primary">Prijavi se</button>
                     </form>
-                    <a href="forgotPassword.php">Zaboravili ste lozinku?</a>
+                    <a href="/login/forgotPassword.php">Zaboravili ste lozinku?</a>
                 </div>
                 <div class="tab-pane fade " id="register" role="tabpanel" aria-labelledby="register-tab">
                     <h2>Registracija</h2>
