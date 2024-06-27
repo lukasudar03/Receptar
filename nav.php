@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,7 +25,11 @@
                     <a class="nav-link text-white" href="/Receptar/login/RegistrationMode.php">Pretraga</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/Receptar/login/Login&Registration.php">Login</a>
+                    <?php if(isset($_SESSION['email'])): ?>
+                    <a class="nav-link text-white" href="/Receptar/login/logout-user.php">Logout</a>
+                    <?php else: ?>
+                    <a class="nav-link text-white" href="/Receptar/login/home.php">Login</a>
+                    <?php endif; ?>
                 </li>
             </ul>
         </div>
