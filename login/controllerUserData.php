@@ -165,7 +165,7 @@ if(isset($_POST['signup'])){
                     $_SESSION['info'] = $info;
                     $_SESSION['email'] = $email;
                     $_SESSION['password'] = $password;
-                    header('location: user-otp.php');
+                    header('location: reset-code.php');
                     exit();
                 } catch (Exception $e) {
                     $errors['otp-error'] = "Failed while sending code! Mailer Error: {$phpmailer->ErrorInfo}";
